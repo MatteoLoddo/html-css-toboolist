@@ -8,13 +8,20 @@ body{
     background-color: #F6F8F9;
 }
 
+.container-main{
+    background-color: #fff;
+    width: 900px;
+    height: 630px;
+    margin: auto;
+    border-radius: 0px 0px 8px 8px;
+    
+}
 
 .logo-boolean{
     vertical-align: middle;
 }
 
 .section-header{
-    background-color: #fff;
     font-weight: bold;
     font-size: 40px;
     padding-left: 15px;
@@ -22,6 +29,7 @@ body{
     padding-bottom: 10px;
 
 }
+
 
 .section{
     background-color: #fff;
