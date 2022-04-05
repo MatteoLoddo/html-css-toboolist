@@ -16,26 +16,26 @@ body{
 .section-header{
     background-color: #fff;
     font-weight: bold;
-    font-size: 50px;
-    margin: 0;
+    font-size: 40px;
+    padding-left: 15px;
+    padding-top:10px;
+    padding-bottom: 10px;
+
 }
 
 .section{
     background-color: #fff;
     width: 900px;
     margin: auto;
-    padding-left: 30px;
+    padding-left: 50px;
 }
 
 .section-nav{
     margin-top: 50px;
-    margin-bottom: 2px;
-    height: 50px;
+    margin-bottom: 4px;
+    height: 55px;
     border-radius: 8px 8px 0px 0px;
-    
-
 }
-
 
 .button{
     padding: 7px 15px 7px 15px;
@@ -60,7 +60,7 @@ body{
     padding-top: 30px;
 }
 
-.Title h1,h2{
+.Title h1,h2,.Info-Task{
     display: inline-block;
 }
 
@@ -70,24 +70,68 @@ body{
 }
 
 .Title h2{
-    padding-left: 10px;
+    color: #454952;
     padding-top: 10px;
-    font-weight: 100;
+    font-weight: bolder;
     font-size: 20px;
+    margin-bottom: 10px;
 
 
 }
 .symbol-LeftTitle{
     display: inline-block;
-    font-size: 15px;
+    font-size: 20px;
     color: #454952;
     font-weight: bold;
 }
-
 .Task-ok{
-    border: 1px solid black;
-    border-radius: 50%;
-    padding: 2px;
+    color: #6BC3AE;
+    border: #6BC3AE
 }
 
+.Task-no{
+    color: #EC6C67;
+    border:#EC6C67 
+}
+
+.Task-ok,.Task-no{
+    border: solid 3px;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: small;
+    margin-right: 5px;
+    margin-left: 10px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 1px;
+}
+
+.Info-Task{
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+.Editorial{
+    background-color: #45ABEA;
+}
+
+.Q1-Goals{
+    background-color:#9C72E4 ;
+}
+
+.Recruiting{
+    background-color: #64C0A9;
+}
+
+.Mobile{
+    background-color: #F29E33;
+}
+
+.Sales{
+    background-color: #B0C926;
+}
+
+.Website{
+    background-color: #D863A1;
+}
 
