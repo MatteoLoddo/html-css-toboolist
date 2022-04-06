@@ -84,6 +84,7 @@ body{
     font-weight: bolder;
     font-size: 20px;
     margin-bottom: 10px;
+    padding-left: 5px;
 
 
 }
@@ -96,6 +97,10 @@ body{
     font-weight: bold;
     text-align: center;
     line-height: 18px;
+}
+
+.List-Item{
+    padding-left: 10px;
 }
 .Task-ok{
     color: #6BC3AE;
@@ -112,8 +117,6 @@ body{
     border-radius: 50%;
     font-weight: bold;
     font-size: small;
-    margin-right: 5px;
-    margin-left: 10px;
     
 }
 
